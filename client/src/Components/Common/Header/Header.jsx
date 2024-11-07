@@ -15,9 +15,9 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <div>
             <h1 className="text-2xl md:text-3xl text-orange-500 font-bold">
-              TOP FIVE BEST <span className="text-blue-500">RATED</span>
+              Manufacture <span className="text-blue-500">India</span>
             </h1>
-            <p className="text-sm md:text-base text-gray-300">BEST, not anyone</p>
+            <p className="text-sm md:text-base text-gray-300">Where Innovation Meets Industry.</p>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const Header = () => {
             </svg>
           )}
         </button>
-        
+
         {/* Navigation Links for Large Screens */}
         <nav className="hidden md:flex space-x-8 text-white">
           <Link
@@ -82,9 +82,8 @@ const Header = () => {
 
       {/* Drawer Menu */}
       <div
-        className={`fixed top-0 right-0 h-auto bg-slate-100 shadow-lg rounded-2xl transform transition-transform duration-300 ${
-          isDrawerOpen ? "translate-x-0" : "translate-x-full"
-        } md:hidden`}
+        className={`fixed top-0 right-0 h-auto bg-slate-100 shadow-lg rounded-2xl transform transition-transform duration-300 ${isDrawerOpen ? "translate-x-0" : "translate-x-full"
+          } md:hidden`}
       >
         <div className="flex justify-end p-4">
           <button onClick={toggleDrawer} className="text-gray-600">
